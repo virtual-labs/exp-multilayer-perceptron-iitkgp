@@ -2,37 +2,36 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Mindless processing is",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "careful, critical thinking",
+        "b": "inaccurate and faulty processing",
+        "c": "information processing that relies heavily on familiar schemata",
+        "d": "processing that focuses on unusual or novel events"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following strategies would NOT be effective at improving your communication competence?",
+      "answers": {
+        "a": "Recognize the people, objects, and situations remain stable over time",
+        "b": "Recognize that each person frame of perception is unique",
+        "c": "Be active in perceiving",
+        "d": "Distinguish facts from inference"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Selective retention occurs when?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "we process, store, and retrieve information that we have already selected, organized, and interpreted",
+        "b": "we make choices to experience particular stimuli",
+        "c": "we make choices to avoid particular stimuli",
+        "d": "we focus on specific stimuli while ignoring other stimuli"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
