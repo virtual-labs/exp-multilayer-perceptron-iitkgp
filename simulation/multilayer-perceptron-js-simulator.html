@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.8.1/math.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src ="js/mlp.js"></script>
+<link rel="stylesheet" type="text/css" href="css/mlp.css">
+</head>
+    <body>
+       <div class="wrapper">
+   		    <div class="uppersection">
+	              <center><h2>Multilayer Perceptron Simulator</h2>
+		    </div>  <!---------------------- end of .upperSection------------------->
+   		    <div class="middlesection">
+			      <div class="middleleftsection">
+				         <div class="canvas2d-view" id="canvas2d-view">
+                             <center> <canvas id="mycanvas" width="420" height="420"></center></canvas>
+<!--							  <out id="out"></out>
+-->                         </div>
+	              </div><!--------------- end of .middleleftsection----------------------->
+		          <div class="middlerightsection">
+							<fieldset>
+								<legend>Parameters:</legend>
+								Momentum: <input type="text" id="txtMomentum" size="2" value="0.9"/>&nbsp;
+								Learning Rate: <input type="text" id="trackLearningRate" size="2" value="0.5"/>
+								<br/><br><br>
+								Iterations: <input type="text" id="txtIterations" size="2" value="10"/> &nbsp;
+								Total Iterations: <input type="text" id="totalIterations" size="2" value="" readonly/>
+							</fieldset>
+								
+							<fieldset>
+								<legend>Hidden Layers</legend>
+								No. of Hidden Layers:&nbsp; <input type="text" id="HiddenLayers" size="2" value="1"/> <br>
+							</fieldset>
+							<fieldset>
+								<b>Samples:</b>&nbsp;
+								<select name="color" id="color">
+								<option value="red">Red</option>
+								<option value="blue">Blue</option>
+								</select>
+							</fieldset>
+							<fieldset>
+								<legend>Controls</legend>
+								<button type="button" id="init-btn" onClick="init();" value="on"><b>Init</b></button>&nbsp;&nbsp;&nbsp;
+								<button type="button" id="learn" onClick="learn();"><b>Learn</b></button>&nbsp;&nbsp;&nbsp;
+								<button type="button" id="clr" onClick="clr();"><b>Clear</b></button>
+							</fieldset>
+							
+		          </div>	<!--------------- end of .middlerightsection----------------------->			
+		    </div>	<!--------------- end of .middlesection----------------------->	
+   		<div class="lowerSection">
+	          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INSTRUCTION
+               <ol type="1">
+			   <li>Select Samples from dropdown.</li>
+			   <li>Click on canvas to plot the Samples.</li>
+			   <li>Click on Learn button to see how MLP classifies.</li>
+               <li>Click on Init Button to Learn the experiment again.</li>
+			   <li>Click Clear to perform experiment again.</li>
+			   </ol> 
+		</div>  <!---------------------- end of .loewrSection------------------->
+            <footer class="default" id="lab-footer">
+                <!-- Put the content here-->
+                <div style="margin-left:25%; margin-right:10% ">
+                    Copyright &copy; 2008-2016 Indian Institute of Technology Kharagpur,<a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+                </div>
+            </footer>
+		
+      </div><!-- end of .wrapper -->
+  </body>
+</html>

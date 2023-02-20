@@ -1,0 +1,13 @@
+
+/home/runner/work/exp-multilayer-perceptron-iitkgp/exp-multilayer-perceptron-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-multilayer-perceptron-iitkgp/exp-multilayer-perceptron-iitkgp/experiment/simulation/js/mlp.js
+  46:5  error  Parsing error: Unexpected token <
+
+/home/runner/work/exp-multilayer-perceptron-iitkgp/exp-multilayer-perceptron-iitkgp/experiment/simulation/js/vlab-quiz-exp6.js
+  1:5  warning  'quizJSON' is assigned a value but never used  no-unused-vars
+
+✖ 3 problems (1 error, 2 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

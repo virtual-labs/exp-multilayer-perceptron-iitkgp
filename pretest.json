@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The process by which you become aware of messages through your sense is called?",
+      "answers": {
+        "a": "Organization",
+        "b": "Sensation",
+        "c": "Interpretation-Evaluation",
+        "d": "Perception"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A perception check is",
+      "answers": {
+        "a": "a cognitive bias that makes us listen only to information we already agree with",
+        "b": "a method teachers use to reward good listeners in the classroom",
+        "c": "any factor that gets in the way of good listening and decreases our ability to interpret correctly",
+        "d": "a response that allows you to state your interpretation and ask your partner whether or not that interpretation is correct"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Mindless processing is",
+      "answers": {
+        "a": "careful, critical thinking",
+        "b": "inaccurate and faulty processing",
+        "c": "information processing that relies heavily on familiar schemata",
+        "d": "processing that focuses on unusual or novel events"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following strategies would NOT be effective at improving your communication competence?",
+      "answers": {
+        "a": "Recognize the people, objects, and situations remain stable over time",
+        "b": "Recognize that each person frame of perception is unique",
+        "c": "Be active in perceiving",
+        "d": "Distinguish facts from inference"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Selective retention occurs when?",
+      "answers": {
+        "a": "we process, store, and retrieve information that we have already selected, organized, and interpreted",
+        "b": "we make choices to experience particular stimuli",
+        "c": "we make choices to avoid particular stimuli",
+        "d": "we focus on specific stimuli while ignoring other stimuli"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
