@@ -4,7 +4,7 @@ The Multi-Layer-Perceptron was first introduced by M. Minsky and S. Papert in 19
 Multilayer perceptrons (MLPs) are feedforward neural networks trained with the standard backpropagation algorithm. They are supervised networks so they require a desired response to be trained. They learn how to transform input data into a desired response, so they are widely used for pattern classification. With one or two hidden layers, they can approximate virtually any input-output map. They have been shown to approximate the performance of optimal statistical classifiers in difficult problems. Most neural network applications involve MLPs.
 
 <center>
-<img src="./images/perceptron.png" style="width:50%;">
+<img src="./images/perceptron.png">
 
 ***Fig. 1: Multi-layer Perceptron***
 </center>
