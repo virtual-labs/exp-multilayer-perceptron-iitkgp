@@ -35,7 +35,7 @@
 	ctx.fillRect( - transX, 0, canvas.width, 1); //Horizantal Axis
 	canvas.onmousemove = function(e) {
 	var pos = getMousePos(canvas, e);
-	out.innerHTML = 'X:' + pos.x + ' Y:' + pos.y;
+	//out.innerHTML = 'X:' + pos.x + ' Y:' + pos.y;
 	}
 	drawVerticalAxisTicks();
 	drawHorizontalAxisTicks();
@@ -43,7 +43,7 @@
 	x_arrow();
 	y_arrow();
 	};
-    <!-----------------------end of axis translation--------------------->
+    /* <!-----------------------end of axis translation---------------------> */
 	function getPosition(event){
 	var rect = canvas.getBoundingClientRect();
 	x = event.clientX - rect.left- transX;
@@ -59,7 +59,7 @@
 	
 	   };
 	}
-   <!------------------------end of mousepos---------------------------->
+   /* <!------------------------end of mousepos----------------------------> */
 	function drawCoordinates(x,y){    
 	// alert("X = "+x+"     "+"Y = "+y);
 	ctx = document.getElementById("mycanvas").getContext("2d");
@@ -82,7 +82,7 @@
 	counter++;
 	
 	}
-    <!------------------------end of drawcordinates---------------------------->
+    /* <!------------------------end of drawcordinates----------------------------> */
 	function drawGrid(color, stepx, stepy) {
 	//ctx.fillStyle = "White";
 	ctx.fill();
@@ -102,7 +102,7 @@
 	ctx.stroke();
 	}
 	} 
-   <!-------------------------------end of drawgrid ---------------------------------->
+   /* <!-------------------------------end of drawgrid ----------------------------------> */
 	function learn(){
     if(red_counter>blue_counter){
 	drawGrid('red', 10, 10);
@@ -121,7 +121,7 @@
 	//alert(blue_counter);
 	//alert(red_counter);
 	}
-   <!-------------------------------end of learn ---------------------------------->
+   /* <!-------------------------------end of learn ----------------------------------> */
 	   
 	function drawVerticalAxisTicks() {
 	var deltaX;
@@ -152,7 +152,7 @@
 	ctx.stroke();
 	 }
 	}
-   <!------------------------------end of draw Axis Ticks------------------------------>
+   /* <!------------------------------end of draw Axis Ticks------------------------------> */
 	function label()
 	{
 	var num = [ ' 1 '],
@@ -172,7 +172,7 @@
 	ctx.fillText(num[j], -15, -320);
 	}
 	}
-  <!-------------------------------end of labeling axis----------------------------------->
+  /* <!-------------------------------end of labeling axis-----------------------------------> */
 	function x_arrow()
 	{ 
 	ctx.beginPath();
@@ -195,7 +195,7 @@
 	ctx.stroke();
 	ctx.fillText("X2",-20,-378);
 	}
-    <!------------------------end of x and y arrow------------------------>
+    /* <!------------------------end of x and y arrow------------------------> */
 	function redraw(){
 		canvas = document.getElementById("mycanvas");
 		ctx = canvas.getContext('2d');
@@ -231,7 +231,7 @@
 	y_arrow();
 	redraw();
 	}
-  <!-----------------------------end of labeling init button------------------------------>
+  //<!-----------------------------end of labeling init button------------------------------>
     function clr() {
 	var retval=confirm("Are you sure?");
 	if(retval==true){
@@ -249,4 +249,4 @@
 	x_arrow();
 	y_arrow();
 	}
-}  <!-----------------------------end of labeling clear button------------------------------>
+}//  <!-----------------------------end of labeling clear button------------------------------>
